@@ -50,10 +50,12 @@ public class Humain {
 		return sb.toString();
 	}
 	
+	static int dure=100;
 	public static void ami(Humain pers, Humain hom, int duree) {
+		dure=duree;
 		System.out.println(pers.getNom() + " "+pers.getPrenom()+
 							" est ami avec "+hom.getNom() + " "+hom.getPrenom()+
-							"et sont amis depuis : "+duree+" ans");
+							"et sont amis depuis : "+dure+" jours");
 	}
 	
 }
